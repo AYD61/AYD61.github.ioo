@@ -1,0 +1,142 @@
+#news{
+	padding: 50px 0;
+}
+#news_top{
+	border-bottom: 1px solid #ccc;
+}
+#news_nav{
+	overflow: hidden;
+}
+#news_nav ul{
+	float: left;
+}
+#news_nav ul li{
+	float: left;
+	margin: 0 20px;
+}
+#news_nav ul li a{
+	display: block;
+	font-size: 18px;
+}
+#news_nav ul li a:hover{
+	color: #007acc;
+}
+#news_nav ul li a:hover i{
+	opacity: 1;
+}
+#news_nav ul li a i{
+	display: block;
+	width: 1px;
+	height: 40px;
+	margin: 0 35px;
+	margin-top: 5px;
+	background-color: #007acc;
+	opacity: 0;
+}
+.news_xz a{
+	color: #007acc;
+}
+#news_nav .news_xz a i{
+	opacity: 1;
+}
+#news_mbxnav{
+	float: right;
+	color: #808080;
+	font-size: 14px;
+}
+#news_mbxnav a{
+	color: #808080;
+	font-size: 14px;
+}
+
+
+
+.new_1{
+	padding: 50px 0;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.new_1 img{
+	float: left;
+}
+.news_wz{
+	width: 1000px;
+	margin: auto 70px;
+	float: left;
+	padding: 20px 0;
+}
+.news_wz h1{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.news_wz p{
+	font-size: 14px;
+	height: 100px;
+	color: #808080;
+}
+.news_wz span{
+	font-size: 14px;
+	color: #808080;
+}
+.news_nrs{
+	display: block;
+	min-width: 1520px;
+}
+.news_xx{
+	float: right;
+	background-color: #e6e6e6;
+	display: inline-block;
+	padding: 45px 25px;
+}
+.news_xx p{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #808080;
+	margin: 20px 0;
+}
+
+.news_nrs:hover{
+	background-color: #EAEAEA;
+}
+.news_nrs:hover .news_wz h1{
+	color: #007acc;
+}
+.news_nrs:hover .news_xx{
+	background-color: #007acc;
+}
+.news_nrs:hover .news_xx p{
+	background-color: #fff;
+}
+
+#xwym{
+	min-width: 1520px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+#xwym a{
+	font-size: 18px;
+	margin: 0 10px;
+	line-height: 50px;
+}
+#xwym .xwjt{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #e6e6e6;
+}
+#xwym .xwjt:hover{
+	background-color: #007acc;
+	color: #fff;
+}
+#xwym .ymxz{
+	color: #007acc;
+	text-decoration:underline;
+}
+.nrsyc{
+	display: none;
+}

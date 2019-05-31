@@ -1,0 +1,97 @@
+.kyjs:nth-child(even){
+	background-color: #e5e5e5;
+}
+.kyjs:nth-child(even) .ky{
+	flex-direction:row-reverse;
+}
+.kyjs:nth-child(even) .kyimg img{
+	right: 0;
+	top: 0;
+}
+.kyjs:nth-child(even):hover .kyimg img{
+	margin-right: 40px;
+	margin-top: 40px;
+	/*filter:drop-shadow(40px -40px #fff);/*投影出一个颜色叠加的图像，可用于png图标变色*/
+	/*filter:drop-shadow(X轴距离 Y轴 #fff);*/
+}
+.kyjs:nth-child(even) .kyimg .imgbg{
+	background-color: #fff;
+	right: 0;
+	top: 0;
+}
+
+
+.kyjs .ky{
+	padding: 100px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.kyjs .kyimg{
+	width: 590px;
+	height: 390px;
+	position: relative;
+}
+.kyjs:hover .kyimg img{
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.kyjs .kyimg .imgbg{
+	width: 550px;
+	height: 350px;
+	background-color: #e5e5e5;
+	position: absolute;
+	top: 0;
+}
+.kyjs .kyimg img{
+	transition: all 0.5s;
+	position: absolute;
+	/*filter:drop-shadow(0px 0px #e5e5e5);/*投影出一个颜色叠加的图像，可用于png图标变色*/
+}
+.kywz{
+	padding-top: 40px;
+	width: 800px;
+}
+.kywz h1{
+	margin-bottom: 45px;
+}
+.kywz p{
+	font-size: 14px;
+	line-height: 25px;
+}
+#jsnav{
+	z-index: 1;
+	position: relative;
+	width: 1520px;
+	margin: 0 auto;
+}
+#jsnav ul{
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	margin: 0 auto;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	right: 0;
+	background-color: #e5e5e5;
+
+}
+#jsnav ul li a{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	border-top: 2px solid rgba(0,0,0,0);
+}
+#jsnav ul li a:hover{
+	background-color: #007acc;
+	color: #fff;
+	border-top: 2px solid #00CC3A;
+}
+#jsnav ul li.jsnavxz a{
+	background-color: #007acc;
+	color: #fff;
+	border-top: 2px solid #00CC3A;
+}

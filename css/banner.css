@@ -1,0 +1,25 @@
+#banner{
+	width: 100%;
+	min-width: 1520px;
+	margin: 0 auto;
+	position: relative;
+}
+#banner img{
+	width: 100%;
+	display: block;
+}
+.bannerwz{
+	width: 1520px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 45%;
+	color: #fff;
+}
+.bannerwz h1,.bannerwz h2{
+	line-height: 50px;
+	font-size: 32px;
+	text-align: center;
+	width: 500px;
+}

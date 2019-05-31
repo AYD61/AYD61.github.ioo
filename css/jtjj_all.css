@@ -1,0 +1,161 @@
+#jtjj{
+	padding: 50px 0;
+}
+#jtjj h3{
+	text-indent: 2em;
+	margin-top: 50px;
+	font-size: 18px;
+	line-height: 30px;
+}
+#jjms{
+	margin-top: 50px;
+	border: 2px solid #e5e5e5;
+	padding: 40px 110px;
+	display: flex;
+	justify-content: space-between;
+}
+.jj2{
+	width: 500px;
+	margin-top: 10px
+}
+.jj2 p{
+	line-height: 25px;
+	color: #484848;
+}
+.jjz{
+	border: 1px solid #e5e5e5;
+	height: 100px;
+}
+
+#fzlc{
+	padding: 50px 0;
+	background-color: #007acc;
+	background: url(../images/jtjj/fzlc_bg.jpg) no-repeat fixed center;
+	height: 630px;
+}
+#fzlc h1{
+	color: #fff;
+}
+#fzlc h2{
+	color: #CCCCCC;
+}
+
+#fzlc .center{
+	position: relative;
+	height: 550px;
+}
+.nf {
+	width: 150px;
+	height: 440px;
+	overflow: hidden;
+	position: relative;
+}
+.nf ul{
+	width: 150px;
+	position: absolute;
+}
+.nf ul li{
+	text-align: center;
+	margin: 10px 0;
+}
+.nf ul li a{
+	color: #fff;
+	font-size: 30px;
+	transition: all 0.5s;
+	width: 150px;
+}
+.nf ul li.nfxz a{
+	font-size: 60px;
+}
+.nf span{
+	width: 2px;
+	height: 40px;
+	background-color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+
+.jts{
+	position: absolute;
+	left: 0;
+	top: -50px;
+	width: 150px;
+}
+.jts a{
+	display: block;
+	width: 100px;
+	height: 130px;
+	background: url(../images/jtjj/fzlc_jts.png) no-repeat;
+	margin: 0 auto;
+}
+.jtx{
+	position: absolute;
+	left: 0;
+	bottom: -130px;
+	width: 150px;
+}
+.jtx a{
+	display: block;
+	width: 100px;
+	height: 130px;
+	background: url(../images/jtjj/fzlc_jts.png) no-repeat;
+	margin: 0 auto;
+	transform: rotate(180deg);
+}
+.fzms{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	margin-top: 250px;
+	width: 500px;
+	height: 200px;
+	display: none;
+	color: #fff;
+	transition: all 0.5s;
+	opacity: 0;
+}
+.msxz{
+	display: block;
+	opacity: 1;
+}
+.fzms h3{
+	font-size: 24px;
+}
+.fzms i{
+	display: block;
+	width: 50px;
+	height: 2px;
+	background-color: #fff;
+	margin: 30px 0;
+}
+.fzms p{
+	font-size: 18px;
+}
+
+#jtys{
+	padding: 50px 0;
+}
+.ysms{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.ysms1{
+	width: 350px;
+	height: 250px;
+	padding: 50px;
+	background-color: #e5e5e5;
+}
+.ysms1 h3{
+	font-size: 18px;
+}
+.ysms1 p{
+	font-size: 14px;
+	line-height: 25px;
+	color: #484848;
+	margin-top: 20px;
+	text-indent: 2em;
+}
