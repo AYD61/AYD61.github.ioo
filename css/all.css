@@ -4,7 +4,7 @@
 	font-family: "Arial" "微软雅黑" ;
 }
 body{
-	
+	min-width:1520px;
 }
 ul{
 	list-style: none;
@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #top{
 	width: 100%;
+	min-width:1520px;
 	height: 100px;
 	overflow: hidden;
 	position: fixed;
