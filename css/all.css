@@ -113,6 +113,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .center{
 	width: 1520px;
+	min-widh:1520px;
 	margin: 0 auto;
 }
 
@@ -126,6 +127,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #footer_cot{
 	width: 1520px;
+	min-widh:1520px;
 	margin: 0 auto;
 	padding-top: 50px;
 	display: flex;
