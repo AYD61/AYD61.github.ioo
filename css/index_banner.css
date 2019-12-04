@@ -2,6 +2,7 @@
 #banner {
 	position: relative;
 	width: 100%;
+	min-width:1520px;
 	height:800px;
 	/*background-color:#1061b0;*/	
 	text-align:center;
